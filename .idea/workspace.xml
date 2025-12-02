@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0ab1b9f-6c43-4249-b765-67cb2d733d6d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="b0ab1b9f-6c43-4249-b765-67cb2d733d6d" name="Changes" comment="laboratory8">
+      <change afterPath="$PROJECT_DIR$/laboratory-7/src/main/java/com/giray/laboratory7/debugcontroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laboratory-7/src/main/java/com/giray/laboratory7/graphqlrestcontroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laboratory-7/src/main/java/com/giray/laboratory7/lab7application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laboratory-7/src/main/java/com/giray/laboratory7/lab_report" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laboratory-7/src/main/java/com/giray/laboratory7/product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laboratory-7/src/main/java/com/giray/laboratory7/productcontroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laboratory-7/src/main/java/com/giray/laboratory7/productservice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,9 +41,28 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "klrcn"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/klrcn/Lab-7.git",
+    "accountId": "dcee8a7f-622a-44ef-b163-6cfddeccf3e2"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -73,6 +98,20 @@
       <option name="presentableId" value="Default" />
       <updated>1763554966427</updated>
     </task>
+    <task id="LOCAL-00001" summary="laboratory8">
+      <option name="closed" value="true" />
+      <created>1764654025038</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1764654025043</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="laboratory8" />
+    <option name="LAST_COMMIT_MESSAGE" value="laboratory8" />
   </component>
 </project>
