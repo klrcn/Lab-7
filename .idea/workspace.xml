@@ -5,24 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0ab1b9f-6c43-4249-b765-67cb2d733d6d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/laboratory 7.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laboratory-7/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laboratory-7/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laboratory-7/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laboratory-7/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laboratory-7/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laboratory-7/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laboratory-7/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laboratory-7/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laboratory-7/src/main/java/com/giray/laboratory7/Laboratory7Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laboratory-7/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laboratory-7/src/test/java/com/giray/laboratory7/Laboratory7ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,9 +38,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="35hGc3Dsf2rBzVL2VcpSwZgpewl" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -67,6 +51,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/acer/Downloads/laboratory 7",
