@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0ab1b9f-6c43-4249-b765-67cb2d733d6d" name="Changes" comment="laboratory8">
-      <change afterPath="$PROJECT_DIR$/laboratory-7/src/main/java/com/giray/laboratory7/debugcontroller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laboratory-7/src/main/java/com/giray/laboratory7/graphqlrestcontroller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laboratory-7/src/main/java/com/giray/laboratory7/lab7application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laboratory-7/src/main/java/com/giray/laboratory7/lab_report" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laboratory-7/src/main/java/com/giray/laboratory7/product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laboratory-7/src/main/java/com/giray/laboratory7/productcontroller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laboratory-7/src/main/java/com/giray/laboratory7/productservice.java" afterDir="false" />
+    <list default="true" id="b0ab1b9f-6c43-4249-b765-67cb2d733d6d" name="Changes" comment="laboratory7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laboratory-7/src/main/java/com/giray/laboratory7/graphqlrestcontroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/laboratory-7/src/main/java/com/giray/laboratory7/graphqlrestcontroller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laboratory-7/src/main/java/com/giray/laboratory7/product.java" beforeDir="false" afterPath="$PROJECT_DIR$/laboratory-7/src/main/java/com/giray/laboratory7/product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laboratory-7/src/main/java/com/giray/laboratory7/productcontroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/laboratory-7/src/main/java/com/giray/laboratory7/productcontroller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laboratory-7/src/main/java/com/giray/laboratory7/productgraphqlcontroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/laboratory-7/src/main/java/com/giray/laboratory7/productgraphqlcontroller.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +60,9 @@
     "accountId": "dcee8a7f-622a-44ef-b163-6cfddeccf3e2"
   }
 }]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/laboratory-7/src/main/java/com/giray/laboratory7/graphqlrestcontroller.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -83,6 +83,11 @@
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.giray.laboratory7" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -106,12 +111,21 @@
       <option name="project" value="LOCAL" />
       <updated>1764654025043</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="laboratory7">
+      <option name="closed" value="true" />
+      <created>1764656939263</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1764656939263</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="laboratory8" />
-    <option name="LAST_COMMIT_MESSAGE" value="laboratory8" />
+    <MESSAGE value="laboratory7" />
+    <option name="LAST_COMMIT_MESSAGE" value="laboratory7" />
   </component>
 </project>

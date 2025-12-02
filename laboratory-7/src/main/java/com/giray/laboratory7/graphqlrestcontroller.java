@@ -8,11 +8,11 @@ import java.util.HashMap;
 
 @RestController
 @RequestMapping("/api/graphql")
-public class graphqlrestcontroller {
+public class GraphQLRestController {
 
-    private final ProductService productService;
+    private final productservice productService;
 
-    public GraphQLRestController(ProductService productService) {
+    public GraphQLRestController(productservice productService) {
         this.productService = productService;
     }
 
@@ -22,7 +22,9 @@ public class graphqlrestcontroller {
             String query = (String) request.get("query");
 
             if (query == null || query.trim().isEmpty()) {
-                return ResponseEntity.badRequest().body(Map.of("errors", "Query cannot be empty"));
+                return ResponseEntity
+                        .badRequest()
+                        .body(Map.of("errors", "Query cannot be empty"));
             }
 
             Map<String, Object> response = new HashMap<>();
@@ -31,16 +33,19 @@ public class graphqlrestcontroller {
             if (query.contains("getAllProducts")) {
                 List<product> products = productService.getAllProducts();
                 data.put("getAllProducts", products);
-            }
-            else {
-                return ResponseEntity.badRequest().body(Map.of("errors", "Unsupported query"));
+            } else {
+                return ResponseEntity
+                        .badRequest()
+                        .body(Map.of("errors", "Unsupported query"));
             }
 
             response.put("data", data);
             return ResponseEntity.ok(response);
 
         } catch (Exception e) {
-            return ResponseEntity.badRequest().body(Map.of("errors", "Error: " + e.getMessage()));
+            return ResponseEntity
+                    .badRequest()
+                    .body(Map.of("errors", "Error: " + e.getMessage()));
         }
     }
 

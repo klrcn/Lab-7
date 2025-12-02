@@ -17,13 +17,13 @@ public class ProductGraphQLController {
     }
 
     @QueryMapping
-    public List<Product> getAllProducts() {
+    public List<product> getAllProducts() {
         System.out.println("GraphQL: getAllProducts called");
         return productService.getAllProducts();
     }
 
     @QueryMapping
-    public Product getProductById(@Argument Long id) {
+    public product getProductById(@Argument Long id) {
         System.out.println("GraphQL: getProductById called with id: " + id);
         return productService.getProductById(id);
     }
@@ -35,9 +35,9 @@ public class ProductGraphQLController {
     }
 
     @MutationMapping
-    public Product createProduct(@Argument String name, @Argument Double price) {
+    public product createProduct(@Argument String name, @Argument Double price) {
         System.out.println("GraphQL: createProduct called with name: " + name + ", price: " + price);
-        Product product = new Product();
+        product product = new product();
         product.setName(name);
         product.setPrice(price);
         return productService.createProduct(product);
